@@ -1,1 +1,3 @@
 # project-7
+Tests unnit tests and modifications included....
+using a simple file testhelpers.py for giving me back some additional information about the researched city.
