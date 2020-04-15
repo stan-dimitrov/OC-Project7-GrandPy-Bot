@@ -1,6 +1,6 @@
 GOOGLE_MAPS_API = {
     'URL': 'https://www.google.com/maps/embed/v1/place',
-    'KEY': 'keykey'  # YOUR_GOOGLE_API_KEY
+    'KEY': '*******'  # YOUR_GOOGLE_API_KEY
 }
 
 WIKI_API = {
