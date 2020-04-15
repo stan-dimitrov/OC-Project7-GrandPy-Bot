@@ -1,1 +1,1 @@
-# Project7-OpenClassrooms
+# project-7

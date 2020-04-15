@@ -1,0 +1,502 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 7b1c1d8361a06cd1e4b1fd07d2cddb15b0e2c75c)
++++ .idea/workspace.xml	(date 1586952226580)
+@@ -1,13 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="7e18002a-052b-4bd1-b61e-9d1387a1e3b6" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/stop-words.json" afterDir="false" />
++    <list default="true" id="7e18002a-052b-4bd1-b61e-9d1387a1e3b6" name="Default Changelist" comment="full version of project 7">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/home.js" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+     </list>
+     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+@@ -17,7 +13,7 @@
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+   <component name="FileEditorManager">
+-    <leaf>
++    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+       <file pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/css/home.css">
+           <provider selected="true" editor-type-id="text-editor">
+@@ -30,8 +26,8 @@
+       <file pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/home.html">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="299">
+-              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
++            <state relative-caret-position="820">
++              <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+               <folding>
+                 <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                 <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+@@ -42,11 +38,11 @@
+           </provider>
+         </entry>
+       </file>
+-      <file pinned="false" current-in-tab="true">
++      <file pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/js/home.js">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="339">
+-              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
++            <state relative-caret-position="660">
++              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+             </state>
+           </provider>
+         </entry>
+@@ -54,8 +50,8 @@
+       <file pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/main.py">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="219">
+-              <caret line="98" column="21" lean-forward="true" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
++            <state relative-caret-position="201">
++              <caret line="93" column="51" selection-start-line="93" selection-start-column="51" selection-end-line="93" selection-end-column="51" />
+               <folding>
+                 <element signature="e#0#13#0" expanded="true" />
+               </folding>
+@@ -67,7 +63,7 @@
+         <entry file="file://$PROJECT_DIR$/stop-words.json">
+           <provider selected="true" editor-type-id="text-editor">
+             <state>
+-              <caret column="5051" selection-start-column="5051" selection-end-column="5051" />
++              <caret column="4955" selection-start-column="4955" selection-end-column="4955" />
+             </state>
+           </provider>
+         </entry>
+@@ -75,8 +71,29 @@
+       <file pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/config.py">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="200">
+-              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
++            <state relative-caret-position="440">
++              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file pinned="false" current-in-tab="true">
++        <entry file="file://$PROJECT_DIR$/tests.py">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="160">
++              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
++              <folding>
++                <element signature="e#0#15#0" expanded="true" />
++              </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/testhelpers.py">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="140">
++              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+             </state>
+           </provider>
+         </entry>
+@@ -107,48 +124,32 @@
+     <option name="CHANGED_PATHS">
+       <list>
+         <option value="$PROJECT_DIR$/home.js" />
+-        <option value="$PROJECT_DIR$/config.py" />
+         <option value="$PROJECT_DIR$/stop-words.json" />
+         <option value="$PROJECT_DIR$/home.html" />
+         <option value="$PROJECT_DIR$/css/home.css" />
++        <option value="$PROJECT_DIR$/js/home.js" />
+         <option value="$PROJECT_DIR$/main.py" />
+-        <option value="$PROJECT_DIR$/js/home.js" />
++        <option value="$PROJECT_DIR$/config.py" />
++        <option value="$PROJECT_DIR$/tests.py" />
++        <option value="$PROJECT_DIR$/testhelpers.py" />
+       </list>
+     </option>
+   </component>
+   <component name="ProjectFrameBounds" extendedState="6">
+     <option name="x" value="1095" />
+     <option name="width" value="1315" />
+-    <option name="height" value="1310" />
++    <option name="height" value="1100" />
+   </component>
+   <component name="ProjectView">
+     <navigator proportions="" version="1">
+       <foldersAlwaysOnTop value="true" />
+     </navigator>
+-    <panes>
+-      <pane id="ProjectPane">
+-        <subPane>
+-          <expand>
+-            <path>
+-              <item name="project-7" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="project-7" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="project-7" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="project-7" type="462c0819:PsiDirectoryNode" />
+-              <item name="pics" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-          </expand>
+-          <select />
+-        </subPane>
+-      </pane>
+-      <pane id="Scope" />
+-    </panes>
++    <panes />
+   </component>
+   <component name="PropertiesComponent">
+     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+   </component>
+@@ -174,7 +175,7 @@
+       </list>
+     </option>
+   </component>
+-  <component name="RunManager">
++  <component name="RunManager" selected="Python tests.Unittests in tests.py">
+     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+       <module name="project-7" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -217,8 +218,45 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
++    <configuration name="testhelpers" type="PythonConfigurationType" factoryName="Python" temporary="true">
++      <module name="project-7" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="C:\Users\SD8\AppData\Local\Programs\Python\Python37-32\python.exe" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testhelpers.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="Unittests in tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
++      <module name="project-7" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="_new_additionalArguments" value="&quot;&quot;" />
++      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests.py&quot;" />
++      <option name="_new_targetType" value="&quot;PATH&quot;" />
++      <method v="2" />
++    </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Python tests.Unittests in tests.py" />
++        <item itemvalue="Python.testhelpers" />
+         <item itemvalue="Python.main" />
+       </list>
+     </recent_temporary>
+@@ -244,6 +282,38 @@
+     <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
++  <component name="TestHistory">
++    <history-entry file="Unittests_in_tests_py - 2020.04.15 at 12h 16m 13s.xml">
++      <configuration name="Unittests in tests.py" configurationId="tests" />
++    </history-entry>
++    <history-entry file="Unittests_in_tests_py - 2020.04.15 at 12h 16m 39s.xml">
++      <configuration name="Unittests in tests.py" configurationId="tests" />
++    </history-entry>
++    <history-entry file="Unittests_in_tests_py - 2020.04.15 at 12h 17m 01s.xml">
++      <configuration name="Unittests in tests.py" configurationId="tests" />
++    </history-entry>
++    <history-entry file="Unittests_in_tests_py - 2020.04.15 at 12h 17m 45s.xml">
++      <configuration name="Unittests in tests.py" configurationId="tests" />
++    </history-entry>
++    <history-entry file="Unittests_in_tests_py - 2020.04.15 at 13h 58m 25s.xml">
++      <configuration name="Unittests in tests.py" configurationId="tests" />
++    </history-entry>
++    <history-entry file="Unittests_in_tests_py - 2020.04.15 at 13h 59m 03s.xml">
++      <configuration name="Unittests in tests.py" configurationId="tests" />
++    </history-entry>
++    <history-entry file="Unittests_in_tests_py - 2020.04.15 at 14h 00m 20s.xml">
++      <configuration name="Unittests in tests.py" configurationId="tests" />
++    </history-entry>
++    <history-entry file="Unittests_in_tests_py - 2020.04.15 at 14h 00m 40s.xml">
++      <configuration name="Unittests in tests.py" configurationId="tests" />
++    </history-entry>
++    <history-entry file="Unittests_in_tests_py - 2020.04.15 at 14h 01m 06s.xml">
++      <configuration name="Unittests in tests.py" configurationId="tests" />
++    </history-entry>
++    <history-entry file="Unittests_in_tests_py - 2020.04.15 at 14h 03m 26s.xml">
++      <configuration name="Unittests in tests.py" configurationId="tests" />
++    </history-entry>
++  </component>
+   <component name="TodoView">
+     <todo-panel id="selected-file">
+       <is-autoscroll-to-source value="true" />
+@@ -254,15 +324,15 @@
+     </todo-panel>
+   </component>
+   <component name="ToolWindowManager">
+-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
++    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+     <editor active="true" />
+     <layout>
+-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
++      <window_info content_ui="combo" id="Project" order="0" weight="0.08058124" />
+       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+       <window_info id="Favorites" order="2" side_tool="true" />
+       <window_info anchor="bottom" id="Message" order="0" />
+       <window_info anchor="bottom" id="Find" order="1" />
+-      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
++      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46153846" />
+       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+@@ -275,6 +345,25 @@
+       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+     </layout>
++    <layout-to-restore>
++      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08058124" />
++      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
++      <window_info id="Favorites" order="2" side_tool="true" />
++      <window_info anchor="bottom" id="Message" order="0" />
++      <window_info anchor="bottom" id="Find" order="1" />
++      <window_info anchor="bottom" id="Run" order="2" weight="0.14409535" />
++      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
++      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
++      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
++      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
++      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32956153" />
++      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32956153" />
++      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32956153" />
++      <window_info anchor="bottom" id="Python Console" order="10" />
++      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
++      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
++      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
++    </layout-to-restore>
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="full version of project 7" />
+@@ -299,13 +388,7 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../../categories - vakata/Database.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="220">
+-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+-        </state>
+-      </provider>
+-    </entry>
++    <entry file="file://$PROJECT_DIR$/../../categories - vakata/Database.py" />
+     <entry file="file://$PROJECT_DIR$/JS Project flow.txt">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="80">
+@@ -316,57 +399,74 @@
+     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+       <provider selected="true" editor-type-id="text-editor" />
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/config.py">
++    <entry file="file://$PROJECT_DIR$/pics/logo.png">
++      <provider selected="true" editor-type-id="images" />
++    </entry>
++    <entry file="file://$PROJECT_DIR$/css/home.css">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="400">
++          <caret line="20" selection-start-line="20" selection-end-line="20" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/home.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="820">
++          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
++          <folding>
++            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
++            <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
++            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
++            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/js/home.js">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="200">
+-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
++        <state relative-caret-position="660">
++          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/stop-words.json">
+       <provider selected="true" editor-type-id="text-editor">
+         <state>
+-          <caret column="5051" selection-start-column="5051" selection-end-column="5051" />
++          <caret column="4955" selection-start-column="4955" selection-end-column="4955" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/pics/logo.png">
+-      <provider selected="true" editor-type-id="images" />
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/css/home.css">
++    <entry file="file://$PROJECT_DIR$/config.py">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="400">
+-          <caret line="20" selection-start-line="20" selection-end-line="20" />
++        <state relative-caret-position="440">
++          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/main.py">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="219">
+-          <caret line="98" column="21" lean-forward="true" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
++        <state relative-caret-position="201">
++          <caret line="93" column="51" selection-start-line="93" selection-start-column="51" selection-end-line="93" selection-end-column="51" />
+           <folding>
+             <element signature="e#0#13#0" expanded="true" />
+           </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/home.html">
++    <entry file="file://$PROJECT_DIR$/testhelpers.py">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="299">
+-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+-          <folding>
+-            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+-            <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+-            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+-          </folding>
++        <state relative-caret-position="140">
++          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/js/home.js">
++    <entry file="file://$PROJECT_DIR$/tests.py">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="339">
+-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
++        <state relative-caret-position="160">
++          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
++          <folding>
++            <element signature="e#0#15#0" expanded="true" />
++          </folding>
+         </state>
+       </provider>
+     </entry>
+Index: config.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- config.py	(revision 7b1c1d8361a06cd1e4b1fd07d2cddb15b0e2c75c)
++++ config.py	(date 1586946468535)
+@@ -4,9 +4,9 @@
+ }
+ 
+ WIKI_API = {
+-    'ARTICLE_URL': 'https://fr.wikipedia.org/wiki/',
++    'ARTICLE_URL': 'https://en.wikipedia.org/wiki/',
+     'SEARCH_REQUEST': {
+-        'URL': 'https://fr.wikipedia.org/w/api.php',
++        'URL': 'https://en.wikipedia.org/w/api.php',
+         'PARAMS': {
+             'action': 'query',
+             'format': 'json',
+@@ -14,14 +14,13 @@
+         }
+     },
+     'SELECT_REQUEST': {
+-        'URL': 'https://fr.wikipedia.org/w/api.php',
++        'URL': 'https://en.wikipedia.org/w/api.php',
+         'PARAMS': {
+             'action': 'query',
+             'format': 'json',
+             'prop': 'extracts',
+             'exlimit': 1,
+             'explaintext': True,
+-            'exsectionformat': 'plain',
+             'exsectionformat': 'plain',
+             'exintro': True
+         }
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- main.py	(revision 7b1c1d8361a06cd1e4b1fd07d2cddb15b0e2c75c)
++++ main.py	(date 1586945494212)
+@@ -33,7 +33,7 @@
+         return \
+             {
+                 'info': 'Of course my chick, here it is: 7 quoted Paradis, 75010 Paris.',
+-                'additional_info': 'But have I already told you the story of this neighborhood that saw me in short pants? The Cité Paradis is a public road located in the 10th arrondissement of Paris. té, a branch leads to 43 rue de Paradis, the second to 57 rue d\'Hauteville and the third dead end [ <a href="https://fr.wikipedia.org/wiki/Cit%C3%A9_Paradis">Learn more on Wikipedia</a> ] ',
++                'additional_info': 'But have I already told you the story of this neighborhood that saw me in short pants? The \n Cité Paradis is a public road located in the 10th arrondissement of Paris. té, a branch leads to 43 rue de Paradis, the second to 57 rue d\'Hauteville and the third dead \nend [ <a href="https://fr.wikipedia.org/wiki/Cit%C3%A9_Paradis">Learn more on Wikipedia</a> ] ',
+                 'url': config.GOOGLE_MAPS_API['URL'] + '?key=' + config.GOOGLE_MAPS_API['KEY'] + '&q=' + '7 cite Paradis, 75010'
+             }
+ 
+@@ -59,16 +59,20 @@
+     wiki_select_url = config.WIKI_API['SELECT_REQUEST']['URL']
+     wiki_select_params = config.WIKI_API['SELECT_REQUEST']['PARAMS']
+     wiki_select_params['pageids'] = page
++    print(wiki_select_params)
+ 
+     wiki_select_response = requests.get(url=wiki_select_url, params=wiki_select_params)
+     wiki_select_data = wiki_select_response.json()
++    print(wiki_select_data)
+     pages = wiki_select_data['query']['pages']
++    print(pages)
+ 
+     page = {}
+     for index in pages:
+         page = pages[index]
+ 
+     article_url = config.WIKI_API['ARTICLE_URL'] + page['title']
++    print(article_url)
+ 
+     return \
+         {
+@@ -81,9 +85,11 @@
+     wiki_search_url = config.WIKI_API['SEARCH_REQUEST']['URL']
+     wiki_search_params = config.WIKI_API['SEARCH_REQUEST']['PARAMS']
+     wiki_search_params['srsearch'] = search_data
++    print(wiki_search_params)
+ 
+     wiki_search_response = requests.get(url=wiki_search_url, params=wiki_search_params)
+     wiki_search_data = wiki_search_response.json()
++    print(wiki_search_data)
+ 
+     random_page = get_random_page(wiki_search_data)
+ 
