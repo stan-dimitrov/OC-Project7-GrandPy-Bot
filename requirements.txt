@@ -1,7 +1,7 @@
 flask==1.1.1
-Requests==2.19.1
+requests==2.19.1
 jinja==2.10
 pytest==5.4.1
 py==1.8.1
 pluggy==0.13.1
-Urllib3==1.22
+urllib3==1.22
