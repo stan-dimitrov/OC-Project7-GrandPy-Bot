@@ -5,10 +5,15 @@ Introduction
 geolocalisation and information about differents places using Wikipedia and Google APIs
 
 ---How to install?---
+
 -Clone this repository
+
 -Go to  the folder cd main
+
 -Install the requirements.txt
+
 -Export FLASK_APP=main.py
+
 -Run server flask run
 
 -
