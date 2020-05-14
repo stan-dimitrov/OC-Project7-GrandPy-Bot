@@ -18,9 +18,13 @@ Run server flask run
 
 -
 This project was created for study and to train with this tools:
+
 -REST APIS
+
 -Flask Framework
+
 -Python, HTML, CSS and Bootstrap
+
 -Test unitaires
 
 Workflow
